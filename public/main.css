@@ -806,6 +806,10 @@ video {
   font-family: family;
 }
 
+.font-\[Montserrat\] {
+  font-family: Montserrat;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
