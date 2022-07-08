@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="../public/main.css"> 
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
+  <title>Frontend Mentor | Product preview card component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-stone-300 w-full h-[100vh] grid place-items-center font-[family] ">
+  <div class="body1 w-fit ">
+    <div class="main flex items-center justify-center">
+      <div class="image ">
+        <img src="./images/image-product-desktop.jpg" alt="" class="h-60 w-60 rounded-l-lg">
+      </div>
+      <div class="texts bg-white h-60 w-60 rounded-r-lg pt-2">
+        <div class="texts1 w-48 pl-3">
+          <div class=" text-slate-500">PERFUME</div>
+          <div class="gab font-bold text-xl w-52">
+            Gabrielle Essence Eau De Parfum
+          </div>
+          <div class="floral text-xs w-65">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.
+          </div>
+          <div class="prices flex gap-x-4 text-center items-center">
+            <div class="price1 text-emerald-700 font-bold text-xl">$149.99</div>
+            <div class="price2 line-through text-xs">$169.99</div>
+          </div>
+          <button class=" text-white bg-emerald-700 rounded-lg w-48 h-8 text-center flex items-center gap-3 justify-center">
+            <img src="./images/icon-cart.svg" alt="" class="icon">
+              Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
